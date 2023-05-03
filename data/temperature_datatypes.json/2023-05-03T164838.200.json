@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "resultset": {
+      "offset": 1,
+      "count": 59,
+      "limit": 256
+    }
+  },
+  "results": [
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-03-01",
+      "name": "Cooling Degree Days Season to Date",
+      "datacoverage": 1,
+      "id": "CDSD"
+    },
+    {
+      "mindate": "1863-05-04",
+      "maxdate": "2023-04-22",
+      "name": "Number of days included in the multiday minimum temperature (MDTN)",
+      "datacoverage": 1,
+      "id": "DATN"
+    },
+    {
+      "mindate": "1863-05-04",
+      "maxdate": "2023-04-21",
+      "name": "Number of days included in the multiday maximum temperature (MDTX)",
+      "datacoverage": 1,
+      "id": "DATX"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term averages of daily diurnal temperature range",
+      "datacoverage": 1,
+      "id": "DLY-DUTR-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term standard deviations of daily diurnal temperature range",
+      "datacoverage": 1,
+      "id": "DLY-DUTR-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term averages of daily average temperature",
+      "datacoverage": 1,
+      "id": "DLY-TAVG-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term standard deviations of daily average temperature",
+      "datacoverage": 1,
+      "id": "DLY-TAVG-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term averages of daily maximum temperature",
+      "datacoverage": 1,
+      "id": "DLY-TMAX-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term standard deviations of daily maximum temperature",
+      "datacoverage": 1,
+      "id": "DLY-TMAX-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term averages of daily minimum temperature",
+      "datacoverage": 1,
+      "id": "DLY-TMIN-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Long-term standard deviations of daily minimum temperature",
+      "datacoverage": 1,
+      "id": "DLY-TMIN-STDDEV"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-03-01",
+      "name": "Extreme minimum temperature for the period.",
+      "datacoverage": 1,
+      "id": "EMNT"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-03-01",
+      "name": "Extreme maximum temperature for the period.",
+      "datacoverage": 1,
+      "id": "EMXT"
+    },
+    {
+      "mindate": "1763-07-01",
+      "maxdate": "2023-03-01",
+      "name": "Heating Degree Days Season to Date",
+      "datacoverage": 1,
+      "id": "HDSD"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Dew point 10th percentile",
+      "datacoverage": 1,
+      "id": "HLY-DEWP-10PCTL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Dew point 90th percentile",
+      "datacoverage": 1,
+      "id": "HLY-DEWP-90PCTL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Dew point mean",
+      "datacoverage": 1,
+      "id": "HLY-DEWP-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Heat index mean",
+      "datacoverage": 1,
+      "id": "HLY-HIDX-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Temperature 10th percentile",
+      "datacoverage": 1,
+      "id": "HLY-TEMP-10PCTL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Temperature 90th percentile",
+      "datacoverage": 1,
+      "id": "HLY-TEMP-90PCTL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Temperature mean",
+      "datacoverage": 1,
+      "id": "HLY-TEMP-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-31",
+      "name": "Wind chill mean",
+      "datacoverage": 1,
+      "id": "HLY-WCHL-NORMAL"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-29",
+      "name": "Highest minimum temperature",
+      "id": "HTMN"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-29",
+      "name": "Highest maximum temperature",
+      "id": "HTMX"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-29",
+      "name": "Lowest minimum temperature",
+      "id": "LTMN"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-29",
+      "name": "Lowest maximum temperature",
+      "id": "LTMX"
+    },
+    {
+      "mindate": "1863-05-04",
+      "maxdate": "2023-04-22",
+      "name": "Multiday minimum temperature (use with DATN)",
+      "datacoverage": 1,
+      "id": "MDTN"
+    },
+    {
+      "mindate": "1863-05-04",
+      "maxdate": "2023-04-21",
+      "name": "Multiday maximum temperature (use with DATX)",
+      "datacoverage": 1,
+      "id": "MDTX"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term averages of monthly diurnal temperature range",
+      "datacoverage": 1,
+      "id": "MLY-DUTR-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term standard deviations of monthly diurnal temperature range",
+      "datacoverage": 1,
+      "id": "MLY-DUTR-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term averages of monthly average temperature",
+      "datacoverage": 1,
+      "id": "MLY-TAVG-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term standard deviations of monthly average temperature",
+      "datacoverage": 1,
+      "id": "MLY-TAVG-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 40F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH040"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 50F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH050"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 60F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH060"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 70F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH070"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 80F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH080"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 90F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH090"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is greater than or equal to 100F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-GRTH100"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmax is less than or equal to 32F",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-AVGNDS-LSTH032"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term averages of monthly maximum temperature",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term standard deviations of monthly maximum temperature",
+      "datacoverage": 1,
+      "id": "MLY-TMAX-STDDEV"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 0F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH000"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 10F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH010"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 20F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH020"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 32F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH032"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 40F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH040"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 50F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH050"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 60F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH060"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term average number of days per month where tmin is less than or equal to 70F",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-AVGNDS-LSTH070"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term averages of monthly minimum temperature",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-NORMAL"
+    },
+    {
+      "mindate": "2010-01-01",
+      "maxdate": "2010-12-01",
+      "name": "Long-term standard deviations of monthly minimum temperature",
+      "datacoverage": 1,
+      "id": "MLY-TMIN-STDDEV"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2016-03-01",
+      "name": "Monthly Mean minimum temperature",
+      "datacoverage": 1,
+      "id": "MMNT"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2016-03-01",
+      "name": "Monthly Mean maximum temperature",
+      "datacoverage": 1,
+      "id": "MMXT"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2016-03-01",
+      "name": "Monthly mean temperature",
+      "datacoverage": 1,
+      "id": "MNTM"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-30",
+      "name": "Average Temperature.",
+      "datacoverage": 1,
+      "id": "TAVG"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-30",
+      "name": "Maximum temperature",
+      "datacoverage": 1,
+      "id": "TMAX"
+    },
+    {
+      "mindate": "1763-01-01",
+      "maxdate": "2023-04-30",
+      "name": "Minimum temperature",
+      "datacoverage": 1,
+      "id": "TMIN"
+    },
+    {
+      "mindate": "1876-11-27",
+      "maxdate": "2023-04-30",
+      "name": "Temperature at the time of observation",
+      "datacoverage": 1,
+      "id": "TOBS"
+    }
+  ]
+}
