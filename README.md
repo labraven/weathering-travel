@@ -29,3 +29,10 @@ abstract = {Engineering MLOps will help you get to grips with ML lifecycle manag
 - Bookends
 - OmniGraffle
 - IntelliJ IDEA
+
+## Starting with Databricks Iteration
+Azure Gallery Flight Delays with R was used as a starting point. Many changes are needed:
+1. Date validation
+2. Databricks Secrets <--> Azure Key Vault
+3. Databricks Connect set up with PyCharm
+4. GitHub Integration
