@@ -36,3 +36,24 @@ Azure Gallery Flight Delays with R was used as a starting point. Many changes ar
 2. Databricks Secrets <--> Azure Key Vault
 3. Databricks Connect set up with PyCharm
 4. GitHub Integration
+
+```mermaid
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+```
+
+## References
+- https://databricks-sdk-py.readthedocs.io/en/latest/
+- 
