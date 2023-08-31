@@ -1,12 +1,26 @@
 @startuml
 allowmixing
+left to right direction
+title Flight Delay Prediction (Databricks First)
 
-rectangle weather_data_noaa {
-    rectangle noaa_cities
-    rectangle noaa_stations
+rectangle noaa_gov {
+    rectangle stations
+    rectangle aux_weather_codes
 }
 
-flight_data_noaa -down-> weather_data_noaa
+rectangle dept_transport {
+    rectangle airport_lookup
+    rectangle airline_lookup
+}
+
+rectangle flightaware_data {
+    rectangle flight_data_stream
+}
+
+rectangle online_feature_store
+
+
+'flight_data_noaa -down-> weather_data_noaa
 flight_delays_data --> project_columns
 project_columns --> convert_categorical_features
 convert_categorical_features --> round_down_to_full_hour
