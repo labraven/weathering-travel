@@ -3,8 +3,14 @@ allowmixing
 left to right direction
 title Flight Delay Prediction (Databricks First)
 
+json JSON {
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+
 rectangle noaa_gov {
-    rectangle stations
+    rectangle weather_stations
     rectangle aux_weather_codes
 }
 
@@ -17,7 +23,51 @@ rectangle flightaware_data {
     rectangle flight_data_stream
 }
 
-rectangle online_feature_store
+rectangle landing_zone {
+    rectangle aux_select_weather_stations
+    rectangle raw_airport_lookup
+    rectangle raw_airline_lookup
+    rectangle raw_flight_data_stream
+    rectangle raw_weather_stations
+    rectangle raw_aux_weather_codes
+}
+
+rectangle refined_zone {
+    rectangle denormalized_combined_weather_data
+    rectangle denormalized_combined_flight_data
+}
+
+raw_airline_lookup --> denormalized_combined_flight_data
+raw_airport_lookup --> denormalized_combined_flight_data
+raw_flight_data_stream --> denormalized_combined_flight_data
+
+raw_weather_stations --> denormalized_combined_weather_data
+raw_aux_weather_codes --> denormalized_combined_weather_data
+
+denormalized_combined_flight_data --> flight_delays_data
+denormalized_combined_weather_data --> weather_data_set
+
+queue land_weather_stations
+queue land_aux_weather_codes
+queue land_airport_lookup
+queue land_airline_lookup
+queue land_flight_data_stream
+
+flight_data_stream --> land_flight_data_stream
+weather_stations --> land_weather_stations
+aux_weather_codes --> land_aux_weather_codes
+airport_lookup --> land_airport_lookup
+airline_lookup --> land_airline_lookup
+
+
+land_weather_stations --> raw_weather_stations
+land_flight_data_stream --> raw_flight_data_stream
+land_aux_weather_codes --> raw_aux_weather_codes
+land_airport_lookup --> raw_airport_lookup
+land_airline_lookup --> raw_airline_lookup
+
+
+'rectangle online_feature_store
 
 
 'flight_data_noaa -down-> weather_data_noaa
