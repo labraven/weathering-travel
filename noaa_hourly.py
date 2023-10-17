@@ -13,9 +13,9 @@ params = {
     "units": "standard",
     "limit": 128
 }
-
+YOUR_TOKEN = "KqpPzkMmEetNTfMrBKYkuFMRfjETbKjv"
 # Set the headers with your token
-headers = {"token": "YOUR_TOKEN"}
+headers = {"token": YOUR_TOKEN}
 
 # Make the initial request to the API to get the total number of results
 response = requests.get(base_url, headers=headers, params=params)
