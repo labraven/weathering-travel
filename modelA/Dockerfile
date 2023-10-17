@@ -24,4 +24,4 @@ RUN /databricks/python3/bin/pip install \
    tqdm==4.62.3 \
    glob2==0.7 \
    pytz==2021.1 \
-   scikit-learn==1.2.0
+   scikit-learn==1.2.1
