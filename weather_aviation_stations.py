@@ -12,7 +12,7 @@ https://www.aviationweather.gov/docs/metar/stations.txt
 # if first word == 2 chars, and is "CD", verify that the "CD" line contains all headers
 # if first word == 2 chars, and is not "CD", then collect data into a dictionary
 # collect data from each line into a dictionary until you hit a blank line.
-# save the dicitonary to a json file
+# save the dictionary to a json file
 
 """ Dictionary fields
 STATE_PROV_CODE,

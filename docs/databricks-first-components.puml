@@ -9,14 +9,35 @@ json JSON {
    "color": ["Red", "Green"]
 }
 
+object feature_store {
+    event_id
+    airline_code
+    flight_num
+    origin_airport
+    origin_airport_precipitation
+    origin_airport_data_1
+    origin_airport_data_2
+    origin_airport_data_3
+    destination_airport
+    destination_airport_precipitation
+    destination_airport_data_1
+    destination_airport_data_2
+    destination_airport_data_3
+}
+
 rectangle noaa_gov {
     rectangle weather_stations
     rectangle aux_weather_codes
 }
 
 rectangle dept_transport {
-    rectangle airport_lookup
-    rectangle airline_lookup
+    rectangle L_AIRLINE_ID
+    rectangle L_AIRPORT
+    rectangle L_AIRPORT_ID
+    rectangle L_AIRPORT_SEQ_ID
+    rectangle L_BRANDED_CODE_SHARE
+    rectangle L_CANCELLATION
+    rectangle L_CITY_MARKET_ID
 }
 
 rectangle flightaware_data {
