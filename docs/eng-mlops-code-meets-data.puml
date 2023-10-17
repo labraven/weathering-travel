@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:ClickServlet.handleRequest();
+:new page;
+:busisess problem analysis and categorizing the problem;
+:setting up resources and tools;
+:10 principles of source code management for ML;
+:good data for maching learning;
+:data preprocessing;
+:data registering and versioning;
+:toward an ML Pipeline;
+:going through the basic steps of ML;
+:data ingesting and feature engineering;
+:ML Training and hyperparameter optimization;
+:model testing and defining metric;
+:model packaging;
+:registering models and production artifacts;
+if (Page.onSecurityCheck) then (true)
+  :Page.onInit();
+  if (isForward?) then (no)
+    :Process controls;
+    if (continue processing?) then (no)
+      stop
+    endif
+
+    if (isPost?) then (yes)
+      :Page.onPost();
+    else (no)
+      :Page.onGet();
+    endif
+    :Page.onRender();
+  endif
+else (false)
+endif
+
+if (do redirect?) then (yes)
+  :redirect process;
+else
+  if (do forward?) then (yes)
+    :Forward request;
+  else (no)
+    :Render page template;
+  endif
+endif
+
+stop
+
+@enduml
