@@ -25,6 +25,9 @@ abstract = {Engineering MLOps will help you get to grips with ML lifecycle manag
 ```
 - [Binary Classification Azure Gallery](https://gallery.azure.ai/Experiment/Binary-Classification-Flight-delay-prediction-3)
 
+## Capabilities
+- Use Image Gallery Templates for NOAA camera data: https://www.weather.gov/slc/Cameras
+- MicroBlog for members (From Miguel Grenberg's Book)
 ## Software used to support this project:
 - Bookends
 - OmniGraffle
