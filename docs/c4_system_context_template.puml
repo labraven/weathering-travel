@@ -1,16 +1,68 @@
 @startuml
+'allowmixing
 skinparam DefaultFontName "Helvetica Neue"
+skinparam ArrowFontName "Monaco"
+skinparam ArrowFontSize 4
+skinparam ArrowFontStyle italic
+'skinparam NoteTextAlignment left
+skinparam NoteFontSize 10
 !define c4plantuml /Users/ryan/etc/C4-PlantUML-master
+!define gcpicons /Users/ryan/etc/google-cloud-icons
 !include c4plantuml/C4_Container.puml
 !include c4plantuml/C4_Deployment.puml
 !include c4plantuml/C4_Context.puml
 
 
+
 LAYOUT_WITH_LEGEND()
 
 
-title Top level Context diagram for ACME Global Widget Production
+title
+| Title: | HungerSync System |
+| As of  | %date("YYYY-MM-dd") |
+| Company Stage | Stage 1 (Pre-seed) |
+| Diagram Type | C4 System Context |
+| PlantUML Version | %version() |
+end title
 
+actor actor
+actor/ "actor/"
+agent agent
+artifact artifact
+boundary boundary
+card card
+circle circle
+cloud cloud
+collections collections
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node
+package package
+person person
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+usecase/ "usecase/"
+
+Note as N1
+    - HungerSync is used as a Senior Thesis project for Stan and Bob.
+    - The system is designed to help people find food in their area.
+    - This is a note on several lines
+    <img:http://plantuml.com/logo3.png>
+    <img:gcpicons/dataproc/dataproc.svg{scale=2.5}>
+end note
+
+Enterprise_Boundary(dtc_transit, "HungerSync Transit Boundary") {
 
 Person(AcmeProdOwner, Acme Production Owner , "<$user> \n Responsible for Production of widgets in ACME Production Site" )
 Person(3rdProdOwner, 3rdParty Production Owner , "<$user> \n Responsible for Production of widgets in 3rdParty Production Site" )
@@ -93,5 +145,47 @@ WithoutPropertyHeader()
 AddProperty("PropC1", "ValueC1")
 AddProperty("PropC2", "ValueC2")
 Rel(personAlias, containerAlias, "Label", "Optional Technology", "Optional Description")
+}
 
 @enduml
+
+
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+''allowmixing
+''left to right direction
+'skinparam DefaultFontName "Open Sans"
+'skinparam linetype polyline
+'skinparam rectangle {
+'    roundCorner<<Concept>> 25
+'}
+'
+'LAYOUT_WITH_LEGEND()
+'
+'title
+'| Title: | DTC Databricks C4 System Diagram |
+'| As of  | %date("YYYY-MM-dd") |
+'| PlantUML Version | %version() |
+'end title
+'
+'
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+'
+'Person(admin, "Administrator")
+'Enterprise_Boundary(dtc, "Enterprise Boundary") {
+'System_Boundary(c1, "Sample System") {
+'    Container(web_app, \
+'    "Web Application", \
+'    "C#, ASP.NET Core 2.1 MVC", \
+'    "Allows users to compare multiple Twitter timelines")
+'}
+'System(twitter, "Twitter")
+'}
+'
+'
+'Rel(admin, web_app, "Uses", "HTTPS")
+'Rel(web_app, twitter, "Gets tweets from", "HTTPS")
+'
+'
+
+LAYOUT_LANDSCAPE()
